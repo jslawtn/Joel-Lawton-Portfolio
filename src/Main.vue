@@ -3,14 +3,24 @@
   font-family: centuryGothic;
   src: url("./assets/fonts/GOTHIC.TTF");
 }
-@keyframes easeIn {
+@keyframes bottomEaseIn {
   from{
     opacity: 0;
     transform: translateY(30px);
   }
   to{
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
+  }
+}
+@keyframes leftEaseIn {
+  from{
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0)
   }
 }
 body{
@@ -25,18 +35,17 @@ body{
 }
 .page-header{
   margin: 20px;
+  padding: 10px;
 }
-.page-title{
+.page-logo{
   top: 0;
-  position:absolute;
-  font-size: 36px;
-  font-weight: normal;
-  color: #ffffff;
-  font-family: centuryGothic;
+  width: auto;
+  position: relative;
 }
 .page-nav{
   display: flex;
   justify-content:flex-end;
+  float: right;
   color: #ffffff;
   font-size: 28px;
   list-style: none;
@@ -74,7 +83,6 @@ body{
   top: 0;
 }
 .mountainBackground{
-  background-image: linear-gradient(to top, #ffffff00, #06171f 100%);
   position:relative;
   display:flex;
   width: 100%;
@@ -82,15 +90,23 @@ body{
 }
 .page-body{
   position: relative;
-  animation: easeIn 2s;
   color: #ffffff;
   margin: 20px;
+  padding: 20px;
+}
+.left-ease{
+  animation: leftEaseIn 2s;
+}
+.bottom-ease{
+  animation: bottomEaseIn 2s;
 }
 #layer-1, #layer-2{
   position:absolute;
   z-index: 1;
 }
-
+#layer-1{
+  top: 0;
+}
 #layer-2{
   bottom: -900px;
 }
@@ -99,7 +115,8 @@ body{
 <template>
   <div id="app">
     <div class="page-header">
-      <h1 class="page-title">Joel Lawton</h1>
+      <!-- <a><h1 class="page-title">Joel Lawton</h1></a> -->
+      <img class="page-logo" src="images/joelLogo.png" alt="Joel Lawton"/>
       <ul class="page-nav">
         <li>WHO</li>
         <li>WHAT</li>
@@ -112,8 +129,7 @@ body{
       <img id="layer-2" src="images/mountainLayer01.png"/>
     </div>
     <div class="page-body">
-      <h1>Hello</h1>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+      <p class="bottom-ease">Im Joel, a games and web developer from Greater Manchester, UK.</p>
     </div>
     <!-- <div class="container">
        <Card v-for="card in cardItems.cards" :key="card.id" :cardData="card"></Card> 
