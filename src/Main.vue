@@ -23,6 +23,16 @@
     transform: translateX(0)
   }
 }
+@media only screen and (max-width: 750px){
+  .page-logo{
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .page-logo{
+    width: 100px;
+  }
+}
 body{
   margin: 0;
   overflow: hidden;
@@ -37,9 +47,20 @@ body{
   margin: 20px;
   padding: 10px;
 }
+.page-header a{
+  color: #ffffff;
+  transition: 0.3s;
+  font-size: 24px;
+  margin: 5px;
+}
+.page-header a:hover{
+  color: #dbdbdb;
+}
+.page-header a:active{
+  color: #777777;
+}
 .page-logo{
   top: 0;
-  width: auto;
   position: relative;
 }
 .page-nav{
@@ -100,6 +121,10 @@ body{
 .bottom-ease{
   animation: bottomEaseIn 2s;
 }
+.social-icon{
+  position: relative;
+  color: #ffffff;
+}
 #layer-1, #layer-2{
   position:absolute;
   z-index: 1;
@@ -117,6 +142,8 @@ body{
     <div class="page-header">
       <!-- <a><h1 class="page-title">Joel Lawton</h1></a> -->
       <img class="page-logo" src="images/joelLogo.png" alt="Joel Lawton"/>
+      <a href="https://twitter.com/JoelLawton3" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/joel-lawton-6a6b37154/" target="_blank"><i class="fa fa-linkedin"></i></a>
       <ul class="page-nav">
         <li>WHO</li>
         <li>WHAT</li>
