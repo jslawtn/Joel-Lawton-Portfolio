@@ -1,0 +1,31 @@
+{
+    "languages":[
+        {
+            "language":"en-US",
+            "who":"Who",
+            "what":"What",
+            "where":"Where",
+            "bio":"Hello World",
+            "gamesDesigner":"Games Designer",
+            "webDeveloper":"Web Developer"
+        },
+        {
+            "language":"en",
+            "who":"Who",
+            "what":"What",
+            "where":"Where",
+            "bio":"Hello World",
+            "gamesDesigner":"Games Designer",
+            "webDeveloper":"Web Developer"
+        },
+        {
+            "language":"es",
+            "who":"Quien",
+            "what":"Qué",
+            "where":"Dónde",
+            "bio":"Hola Mundo",
+            "gamesDesigner":"Games Designer",
+            "webDeveloper":"Web Developer"
+        }
+    ]
+}

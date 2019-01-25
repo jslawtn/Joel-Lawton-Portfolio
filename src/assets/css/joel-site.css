@@ -1,0 +1,138 @@
+@font-face {
+    font-family: centuryGothic;
+    src: url("/assets/fonts/GOTHIC.TTF");
+}
+
+@keyframes bottomEaseIn {
+    from{
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+@keyframes leftEaseIn {
+    from{
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0)
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .page-logo{
+      width: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .page-logo{
+      width: 100px;
+    }
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color: #1e6a8e;
+}
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page-header{
+    margin: 20px;
+    padding: 10px;
+}
+
+.page-header a{
+    color: #ffffff;
+    transition: 0.3s;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.page-header a:hover{
+    color: #dbdbdb;
+}
+  
+.page-header a:active{
+    color: #777777;
+}
+
+.active{
+    transform: scale(0.9);
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.page-nav{
+    display: flex;
+    justify-content:flex-end;
+    float: right;
+    color: #ffffff;
+    font-size: 28px;
+    list-style: none;
+    font-family: centuryGothic;
+}
+
+.page-nav li{
+    margin: 10px;
+    transition: 0.5s;
+}
+ 
+.page-nav li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.page-nav li:active{
+    transform: scale(0.9);
+}
+
+.page-sub{
+    font-size: 24px;
+    font-weight: normal;
+    font-family: centuryGothic;
+    margin: 0;
+}
+  
+.container{
+    display: flex;
+    justify-content:space-evenly;
+}
+  
+.page-body{
+    position: relative;
+    color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+}
+  
+.left-ease{
+    animation: leftEaseIn 2s;
+}
+  
+.bottom-ease{
+    animation: bottomEaseIn 2s;
+}
+  
+.social-icon{
+    position: relative;
+    color: #ffffff;
+}
+
+.text-body{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px;
+}
