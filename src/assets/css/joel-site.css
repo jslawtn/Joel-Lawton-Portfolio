@@ -6,7 +6,7 @@
 @keyframes bottomEaseIn {
     from{
       opacity: 0;
-      transform: translateY(30px);
+      transform: translateY(50%);
     }
     to{
       opacity: 1;
@@ -37,6 +37,13 @@
     }
 }
 
+h1{
+    color: #ffffff;
+    font-weight: normal;
+}
+
+
+
 body{
     margin: 0;
     overflow: hidden;
@@ -52,6 +59,7 @@ body{
 .page-header{
     margin: 20px;
     padding: 10px;
+    z-index: 1;
 }
 
 .page-header a{
@@ -81,7 +89,7 @@ body{
     color: #ffffff;
     font-size: 28px;
     list-style: none;
-    font-family: centuryGothic;
+    /* font-family: centuryGothic; */
 }
 
 .page-nav li{

@@ -2,21 +2,37 @@
     "languages":[
         {
             "language":"en-US",
-            "who":"Who",
-            "what":"What",
-            "where":"Where",
+            "who":"WHO",
+            "what":"WHAT",
+            "where":"WHERE",
             "bio":"Hello World",
             "gamesDesigner":"Games Designer",
-            "webDeveloper":"Web Developer"
+            "webDeveloper":"Web Developer",
+            "skills":[
+                "CSS",
+                "HTML",
+                "JavaScript",
+                "C#",
+                "Photoshop",
+                "Unity 3D"
+            ]
         },
         {
             "language":"en",
-            "who":"Who",
-            "what":"What",
-            "where":"Where",
+            "who":"WHO",
+            "what":"WHAT",
+            "where":"WHERE",
             "bio":"Hello World",
             "gamesDesigner":"Games Designer",
-            "webDeveloper":"Web Developer"
+            "webDeveloper":"Web Developer",
+            "skills":[
+                "CSS",
+                "HTML",
+                "JavaScript",
+                "C#",
+                "Photoshop",
+                "Unity 3D"
+            ]
         },
         {
             "language":"es",
@@ -25,7 +41,15 @@
             "where":"Dónde",
             "bio":"Hola Mundo",
             "gamesDesigner":"Games Designer",
-            "webDeveloper":"Web Developer"
+            "webDeveloper":"Web Developer",
+            "skills":[
+                "CSS",
+                "HTML",
+                "JavaScript",
+                "C#",
+                "Photoshop",
+                "Unity 3D"
+            ]
         }
     ]
 }

@@ -19,29 +19,38 @@
 .layer-1, .layer-2, .layer-3, .layer-4{
   position:absolute;
 }
+
+.layer-2, .layer-3, .layer-4{
+  bottom: 0;
+}
+
 .layer-1{
   top: 0;
 }
-.layer-2, .layer-3, .layer-4{
-  bottom: 0;
+
+.layer-3{
+  width: 100%;
 }
 
 .parallax-layers{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    z-index: 0;
+    z-index: -1;
 }
 </style>
 
 <template>
   <div id="app">
-    <div class="background">
-      <div class="parallax-layers" v-on:mousemove="parallax">
-        <img class="layer-1" :style="{'transform':'translateX(' + mouseX + '%) translateY(' + mouseY + '%)'}" src="images/stars.png" />
-        <img class="layer-2" :style="{'transform':'translateX(' + mouseX + '%) translateY(' + mouseY + '%)'}" src="images/mountainLayer01.png"/>
-        <img class="layer-4" :style="{'transform':'translateX(' + mouseX + '%) translateY(' + mouseY + '%)'}" src="images/FogLayer.png"/>
-        <img class="layer-3" :style="{'transform':'translateX(' + mouseX + '%) translateY(' + mouseY + '%)'}" src="images/TreeLayer.png"/>
+    <div class="background" v-on:mousemove="parallax">
+      <div class="parallax-layers">
+        <img class="layer-1" 
+        :style="{'transform':'translateX(' + mouseX/500 + '%) translateY(' + mouseY/500 + '%)'}" src="images/stars.png" />
+        <img class="layer-2" 
+        :style="{'transform':'translateX(' + mouseX/400 + '%) translateY(' + mouseY/400 + '%)'}" src="images/mountainLayer01.png"/>
+        <img class="layer-3" src="images/FogLayer.png"/>
+        <img class="layer-4" 
+        :style="{'transform':'translateX(' + mouseX/200 + '%) translateY(' + mouseY/200 + '%)'}" src="images/TreeLayer.png"/>
       </div>
       <div class="page-header">
         <img class="page-logo" src="images/joelLogo.png" alt="Joel Lawton"/>
@@ -74,7 +83,7 @@ export default {
   },
   data(){
     return{
-      pageIndex: 0,
+      pageIndex: 1,
       cardItems:{},
       textConfig:{},
       mouseX:0,
@@ -86,8 +95,8 @@ export default {
   },
   methods:{
     parallax:function(){
-      this.mouseX = event.clientX/500;
-      this.mouseY = event.clientY/500;
+      this.mouseX = event.clientX;
+      this.mouseY = event.clientY;
       }
   }
 }
