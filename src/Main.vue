@@ -83,7 +83,7 @@ export default {
   },
   data(){
     return{
-      pageIndex: 1,
+      pageIndex: 0,
       cardItems:{},
       textConfig:{},
       mouseX:0,
