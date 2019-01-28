@@ -1,10 +1,20 @@
 <style>
-@import './assets/css/joel-site.css';
-
 @media only screen and (max-width: 600px){
   #layer-1, #layer-2, #layer-3{
     transform: scale(60%);
   }
+}
+
+@media only screen and (max-width: 750px){
+    .page-logo{
+      width: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .page-logo{
+      width: 100px;
+    }
 }
 
 .background{
@@ -37,6 +47,98 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
+}
+
+.container-box{
+    margin: auto;
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    background-color: #384152;
+    box-shadow: 5px 5px 15px #0000003f;
+    border-radius: 15px;
+    padding: 15px;
+    animation: flip 1s;
+    transition: 1s;
+}
+
+.container-box:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+
+.container-body{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.container-title{
+    color: #0000004f;
+    font-size: 48px;
+}
+
+.container-out{
+    position: absolute;
+    top:-80px;
+}
+.page-header{
+    margin: 20px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.page-header a{
+    color: #ffffff;
+    transition: 0.3s;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.page-header a:hover{
+    color: #dbdbdb;
+}
+  
+.page-header a:active{
+    color: #777777;
+}
+
+.active{
+    transform: scale(0.9);
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.page-nav{
+    display: flex;
+    justify-content:flex-end;
+    float: right;
+    color: #ffffff;
+    font-size: 28px;
+    list-style: none;
+}
+
+.page-nav li{
+    margin: 10px;
+    transition: 0.5s;
+}
+ 
+.page-nav li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.page-nav li:active{
+    transform: scale(0.9);
+}
+
+.content-line{
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
 }
 </style>
 

@@ -5,7 +5,8 @@
             "who":"WHO",
             "what":"WHAT",
             "where":"WHERE",
-            "bio":"Hi! My name is Joel Lawton, a games designer and web developer from Greater Manchester, UK. My experience includes creating AR and VR applications.",
+            "bio":"Hi! My name is Joel Lawton, a games designer and web developer from Greater Manchester, UK. My experience includes creating AR and VR apps, mobile games and web applications.",
+            "aliens":"It seems that page has been abducted by aliens. Please come back another time. The truth is out there...",
             "hello":"HELLO.",
             "skills":[
                 "CSS",
@@ -21,7 +22,8 @@
             "who":"WHO",
             "what":"WHAT",
             "where":"WHERE",
-            "bio":"Hi! My name is Joel Lawton, a games designer and web developer from Greater Manchester, UK. My experience includes creating AR and VR applications.",
+            "bio":"Hi! My name is Joel Lawton, a games designer and web developer from Greater Manchester, UK. My experience includes creating AR and VR apps, mobile games and web applications.",
+            "aliens":"It seems that page has been abducted by aliens. Please come back another time. The truth is out there...",
             "hello":"HELLO.",
             "skills":[
                 "CSS",
@@ -37,7 +39,8 @@
             "who":"Quien",
             "what":"Qué",
             "where":"Dónde",
-            "bio":"Hi! My name is Joel Lawton, a games designer and web developer from Greater Manchester, UK. My experience includes creating AR and VR applications.",
+            "bio":"¡Hola! Mi nombre es Joel Lawton, diseñador de juegos y desarrollador web de Greater Manchester, Reino Unido. Mi experiencia incluye la creación de aplicaciones AR y VR, juegos móviles y aplicaciones web.",
+            "aliens":"Parece que esta página ha sido secuestrada por extraterrestres. Por favor vuelve en otro momento. La verdad está ahí fuera...",
             "hello":"HOLA.",
             "skills":[
                 "CSS",
