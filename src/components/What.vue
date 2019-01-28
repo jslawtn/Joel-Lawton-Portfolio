@@ -53,7 +53,7 @@
 <template>
     <div class="what-page">
     <div class="bottom-ease">
-        <h1 class="container-title center">SKILLS.</h1>
+        <h1 class="container-title center">{{textConfig.skill}}</h1>
         <div class="skills">
             <div class="circle" v-for="skill in textConfig.skills" :key="skill"><span>{{skill}}</span></div>
         </div>

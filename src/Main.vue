@@ -193,7 +193,10 @@ export default {
     }
   },
   created:function(){
-    this.textConfig = AppData.languages.find(lang => lang.language === navigator.language || "en");
+    this.textConfig = AppData.languages.find(lang => lang.language === navigator.language);
+    if(this.textConfig === undefined){
+      this.textConfig = AppData.languages.find(lang => lang.language === 'en');
+    }
   },
   methods:{
     parallax:function(){
