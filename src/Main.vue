@@ -17,6 +17,15 @@
     }
 }
 
+@keyframes flip {
+  from{
+    transform:  rotateY(90deg);
+  }
+  to{
+    transform:  rotateY(0);
+  }
+}
+
 .background{
   position:absolute;
   background-image: linear-gradient(to top, #ffffff00, #06171f 100%);
