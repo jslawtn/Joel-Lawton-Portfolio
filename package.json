@@ -11,9 +11,10 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.22",
     "express": "^4.16.4",
     "vue": "^2.5.17",
-    "vue-cli-plugin-webpack-bundle-analyzer": "^1.2.0"
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
     "@intervolga/optimize-cssnano-plugin": "^1.0.6",
