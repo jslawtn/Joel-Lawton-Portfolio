@@ -11,10 +11,8 @@
 }
 
 body{
-    height: 100vh;
-    background-color: #1e6a8e;
-    background-image: linear-gradient(to top, #ffffff00, #06171f 100%);
-    transition: background-color 10s;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#06171f), to(#1e6a8e)) fixed;
 }
 
 /* .to-purple body{
