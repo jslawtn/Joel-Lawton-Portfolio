@@ -1,3 +1,49 @@
+@font-face{
+    font-family: gothic;
+    src: url('./assets/GOTHIC.TTF');
+}
+
+
+
+.icon-link{
+    color: white;
+    margin: 2px;
+}
+
+body{
+    height: 100vh;
+    background-color: #1e6a8e;
+    background-image: linear-gradient(to top, #ffffff00, #06171f 100%);
+    transition: background-color 10s;
+}
+
+/* .to-purple body{
+    background-color: #9e6db1;
+}
+
+.to-orange body{
+    background-color: #6c9b5e;
+} */
+
+p, i, h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-family: gothic; 
+}
+
+.btn-inactive{
+    opacity: 0.5;
+}
+
+.segment-top{
+    padding-top: 5rem !important;
+}
+
+.content-list{
+    list-style: none;
+}
+
+/* Animations */
+
 @keyframes fade-up{
     from{
         transform: translateY(3em);
@@ -7,16 +53,6 @@
         opacity: 1;
     }
 }
-
 .fade-up{
     animation: fade-up 2s;
-}
-
-.icon-link{
-    color: white;
-    margin: 2px;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-    color: white;
 }
