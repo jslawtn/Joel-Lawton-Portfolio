@@ -4,7 +4,6 @@
       <h1>Welcome</h1>
       <h5>Welcome to my site</h5>
       <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/JoelLawton3?ref_src=twsrc%5Etfw">Tweets by JoelLawton3</a> 
-      
     </div>
     <ContentRow></ContentRow>
   </div>
@@ -18,9 +17,9 @@ export default {
     ContentRow
   },
   created: function(){
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'https://platform.twitter.com/widgets.js')
-    document.body.appendChild(recaptchaScript)
+    let twitterBoard = document.createElement('script');
+    twitterBoard.setAttribute('src', 'https://platform.twitter.com/widgets.js');
+    document.body.appendChild(twitterBoard);
   }
 }
 </script>

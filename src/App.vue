@@ -1,5 +1,5 @@
 <style>
-.parallax-layers{
+/* .parallax-layers{
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -20,14 +20,13 @@
 
 .layer-3{
   width: 100%;
-}
+} */
 
-.star{
-    height: 50px;
-    width: 50px;
-    background-color: white;
+.parallax-test{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
-
 </style>
 
 <template>
@@ -43,6 +42,10 @@
                 <b-nav-item to="/Work" class="mr-5" :class="{'btn-inactive': $route.path !== '/Work'}" :disabled="$route.path === '/Work'"><h5>My work</h5></b-nav-item>
             </b-navbar-nav>
         </b-navbar>
+        <div class="parallax-test">
+            <!-- <img class="layer-1" 
+            :style="{'transform':'translateX(' + mouseX/500 + '%) translateY(' + mouseY/500 + '%)'}" src="images/stars.png" /> -->
+        </div>
         <!-- <div class="parallax-layers">
             <img class="layer-1" 
             :style="{'transform':'translateX(' + mouseX/500 + '%) translateY(' + mouseY/500 + '%)'}" src="images/stars.png" />
