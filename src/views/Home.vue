@@ -1,8 +1,13 @@
 <template>
   <div class="container fade-up">
     <div class="mb-4">
-      <h1>Welcome</h1>
-      <h5>Welcome to my site</h5>
+      <div class="d-flex justify-content-center">
+        <div class="text-center">
+          <h1 class="main-title">Just another creative</h1>
+          <p>Hello my name is Joel, a front-end and games developer from Manchester</p>
+        </div>
+      </div>
+      
       <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/JoelLawton3?ref_src=twsrc%5Etfw">Tweets by JoelLawton3</a> 
     </div>
     <ContentRow></ContentRow>

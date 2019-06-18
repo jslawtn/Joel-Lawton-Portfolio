@@ -15,14 +15,6 @@ body{
     background: -webkit-gradient(linear, left top, left bottom, from(#06171f), to(#1e6a8e)) fixed;
 }
 
-/* .to-purple body{
-    background-color: #9e6db1;
-}
-
-.to-orange body{
-    background-color: #6c9b5e;
-} */
-
 p, i, h1, h2, h3, h4, h5, h6 {
     color: white;
     font-family: gothic; 
@@ -38,6 +30,10 @@ p, i, h1, h2, h3, h4, h5, h6 {
 
 .content-list{
     list-style: none;
+}
+
+.main-title{
+    font-size: 4em;
 }
 
 /* Animations */
