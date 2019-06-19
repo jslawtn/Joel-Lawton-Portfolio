@@ -3,6 +3,11 @@
     src: url('./assets/GOTHIC.TTF');
 }
 
+@font-face{
+    font-family: gothicBold;
+    src: url('./assets/GOTHICB.TTF');
+}
+
 
 
 .icon-link{
@@ -17,7 +22,14 @@ body{
 
 p, i, h1, h2, h3, h4, h5, h6 {
     color: white;
-    font-family: gothic; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: gothicBold;
+}
+
+p, i{
+    font-family: gothic;
 }
 
 .btn-inactive{
@@ -47,6 +59,7 @@ p, i, h1, h2, h3, h4, h5, h6 {
         opacity: 1;
     }
 }
+
 .fade-up{
     animation: fade-up 2s;
 }
