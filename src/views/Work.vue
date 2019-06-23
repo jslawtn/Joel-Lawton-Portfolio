@@ -1,17 +1,34 @@
+<style scoped>
+.box{
+    height: 250px;
+    width: 250px;
+}
+
+.box:hover{
+    cursor:pointer;
+}
+</style>
+
 <template>
     <div class="container fade-up">
         <h1>My Work</h1>
-        <unity src="games/WebTestBuild/Build/WebTestBuild.json" width="1000" height="600" unityLoader="games/WebTestBuild/Build/UnityLoader.js"></unity>
+        <div>
+            <div class="card box" v-on:click="get()">
+                <div class="card-body">Web Test</div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
- import Unity from 'vue-unity-webgl'
+// eslint-disable-next-line
+import router from '../router';
 export default {
-    nanme: 'work',
-    components:{
-        Unity
+    name: 'work',
+    methods:{
+        get(){
+            router.push('/web-test')
+        }
     }
-
 }
 </script>

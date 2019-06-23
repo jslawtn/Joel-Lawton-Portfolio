@@ -20,6 +20,11 @@ const router = new Router({
             path: '/Work',
             name:'work',
             component: () => import('./views/Work.vue')
+        },
+        {
+            path: '/web-test',
+            name: 'webTest',
+            component: () => import('./views/WebTest.vue')
         }
     ]
 })

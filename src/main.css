@@ -8,8 +8,6 @@
     src: url('./assets/GOTHICB.TTF');
 }
 
-
-
 .icon-link{
     color: white;
     margin: 2px;
@@ -45,7 +43,21 @@ p, i{
 }
 
 .main-title{
+    position: absolute;
+    top: 40%;
+}
+
+.main-title h1{
     font-size: 4em;
+}
+
+.btn-main{
+    transition: 0.5s;
+    color: white;
+}
+
+.btn-main:hover{
+    color: white;
 }
 
 /* Animations */
