@@ -34,6 +34,10 @@ p, i{
     font-family: gothic;
 }
 
+.text-bold{
+    font-family: gothicBold !important;
+}
+
 .btn-inactive{
     opacity: 0.5;
 }
@@ -64,11 +68,17 @@ p, i{
     color: white;
 }
 
+.skew-1{
+    -ms-transform: skewY(-3deg); /* IE 9 */
+    -webkit-transform: skewY(-3deg); /* Safari 3-8 */
+    transform: skewY(-3deg);
+}
+
 /* Animations */
 
 @keyframes fade-up{
     from{
-        transform: translateY(3em);
+        transform: translateY(3rem);
         opacity: 0;
     }
     to{
@@ -78,4 +88,13 @@ p, i{
 
 .fade-up{
     animation: fade-up 2s;
+}
+
+.grow{
+    transition: 2s;
+}
+
+.grow:hover{
+    color: rgb(93, 163, 130);
+    font-size: 6rem;
 }

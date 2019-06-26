@@ -1,55 +1,56 @@
 <style scoped>
-.twitter-timeline{
-    position: absolute;
-    right: 0;
+.about-me{
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: none;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 </style>
 
 <template>
-    <div class="container fade-up">
-        <!-- <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/JoelLawton3?ref_src=twsrc%5Etfw">Tweets by JoelLawton3</a>  -->
+    <div class="container fade-up about-me skew-1 p-3">
         <div class="segment-top">
             <h2>Introduction</h2>
-            <p>Hey there, I'm Joel Lawton, a games and font-end developer from Manchester, UK.</p>
+            <p>I'm Joel, a games and font-end developer from Manchester, UK. My passion for creative development and design has led me to use a multitude of digital tools to experiment and create.</p>
         </div>
         <div class="segment-top row">
-            <div class="col-5">
-                <h2>Experience</h2>
+            <div class="col-6">
+                <h2>Journey</h2>
             </div>
             <div class="col">
                 <ul class="content-list">
                     <li class="mb-5">
-                        <div class="">
-                            <p class="m-0">Graduate Developer - Interact</p>
+                        <div>
+                            <p class="m-0">Graduate Developer - <span class="text-bold">Interact</span></p>
                             <p class="m-0">May 2018 - present</p>
                         </div>
                     </li>
                     <li class="mb-5">
-                        <div class="">
-                            <p class="m-0">Computer and Video Games - Salford University</p>
+                        <div>
+                            <p class="m-0">Computer and Video Games - <span class="text-bold">Salford University</span></p>
                             <p class="m-0">Sep 2015 - May 2018</p>
                         </div>
                     </li>
                     <li class="mb-5">
-                        <div class="">
-                            <p class="m-0">Interactive Media - Bury College</p>
+                        <div>
+                            <p class="m-0">Interactive Media - <span class="text-bold">Bury College</span></p>
                             <p class="m-0">Sep 2013 - Jun 2015</p>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
+        <div class="segment-top skew-1">
+            <h2>Interests</h2>
+            <p>Gaming has always been a passion of mine, ever since I could hold a controller. That being said I enjoy other activities in my spare time.</p>
+        </div>
     </div>
 </template>
 
 <script>
-export default {
-    created: function(){
-        let twitterBoard = document.createElement('script');
-        twitterBoard.setAttribute('src', 'https://platform.twitter.com/widgets.js');
-        document.body.appendChild(twitterBoard);
-    }
-}
 </script>
 
 <style>
