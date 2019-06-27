@@ -14,7 +14,7 @@
     <div class="container fade-up skew-1 p-3">
         <div class="segment-top">
             <h2>Wait! What Do I Do?</h2>
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center segment-top">
                 <div class="card box w-100" v-on:click="get()">
                     <div class="card-body">
                         <h1>Monster Woods</h1>
