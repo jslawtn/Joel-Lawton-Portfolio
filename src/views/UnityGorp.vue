@@ -1,7 +1,7 @@
 <template>
     <div class="container fade-up">@
         <div>
-            <unity src="games/WebTestBuild/Build/WebTestBuild.json" width="1000" height="600" unityLoader="games/WebTestBuild/Build/UnityLoader.js"></unity>
+            <unity src="games/Gorp/Build/GorpBuild.json" width="1000" height="600" unityLoader="games/Gorp/Build/UnityLoader.js"></unity>
         </div>
     </div>
 </template>

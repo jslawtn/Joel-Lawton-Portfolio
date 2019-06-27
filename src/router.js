@@ -22,9 +22,9 @@ const router = new Router({
             component: () => import('./views/Work.vue')
         },
         {
-            path: '/web-test',
-            name: 'webTest',
-            component: () => import('./views/WebTest.vue')
+            path: '/gorp',
+            name: 'Gorp',
+            component: () => import('./views/UnityGorp.vue')
         }
     ]
 })

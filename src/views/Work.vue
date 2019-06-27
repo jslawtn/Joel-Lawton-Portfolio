@@ -17,7 +17,8 @@
             <div class="row d-flex justify-content-center">
                 <div class="card box w-100" v-on:click="get()">
                     <div class="card-body">
-                        <h1>Unity</h1>
+                        <h1>Monster Woods</h1>
+                        <p>Monster Woods is a 2D platformer game developed using the Unity engine.</p>
                     </div>
                 </div>
             </div>
@@ -32,7 +33,7 @@ export default {
     name: 'work',
     methods:{
         get(){
-            router.push('/web-test')
+            router.push('/gorp')
         }
     }
 }

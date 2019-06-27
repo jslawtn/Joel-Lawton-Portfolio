@@ -1,0 +1,13 @@
+{
+"companyName": "Traitor Games",
+"productName": "Monster Woods",
+"dataUrl": "GorpBuild.data.unityweb",
+"asmCodeUrl": "GorpBuild.asm.code.unityweb",
+"asmMemoryUrl": "GorpBuild.asm.memory.unityweb",
+"asmFrameworkUrl": "GorpBuild.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
