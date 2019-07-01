@@ -43,10 +43,10 @@
                 </ul>
             </div>
         </div>
-        <div class="segment-top skew-1">
+        <!-- <div class="segment-top skew-1">
             <h2>Interests</h2>
             <p>Gaming has always been a passion of mine, ever since I could hold a controller. That being said I enjoy other activities in my spare time.</p>
-        </div>
+        </div> -->
     </div>
 </template>
 
