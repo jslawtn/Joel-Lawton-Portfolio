@@ -68,11 +68,14 @@ p, i{
     color: white;
 }
 
-.skew-1{
-    -ms-transform: skewY(-3deg); /* IE 9 */
-    -webkit-transform: skewY(-3deg); /* Safari 3-8 */
-    transform: skewY(-3deg);
+.back-btn{
+    transition: 0.5s;
 }
+
+.back-btn:hover{
+    transform: translateX(15px);
+}
+
 
 /* Animations */
 

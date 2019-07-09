@@ -11,9 +11,12 @@
 </style>
 
 <template>
-    <div class="container fade-up about-me skew-1 p-3">
+    <div class="container fade-up">
         <div class="segment-top">
-            <h2>Introduction</h2>
+            <div>
+                <h2 class="d-inline">Introduction</h2>
+                <button class="float-right d-inline btn back-btn" v-on:click="back()"><span style="color:white; font-family: gothicBold;">Work <i class="fa fa-arrow-right"></i></span></button>
+            </div>
             <p>I'm Joel, a games and font-end developer from Manchester, UK. My passion for creative development and design has led me to use a multitude of digital tools to experiment and create.</p>
         </div>
         <div class="segment-top row">
@@ -43,16 +46,18 @@
                 </ul>
             </div>
         </div>
-        <!-- <div class="segment-top skew-1">
-            <h2>Interests</h2>
-            <p>Gaming has always been a passion of mine, ever since I could hold a controller. That being said I enjoy other activities in my spare time.</p>
-        </div> -->
     </div>
 </template>
 
 <script>
+// eslint-disable-next-line
+import router from '../router';
+export default {
+    name: 'about',
+    methods:{
+        back(){
+            router.push('/Work')
+        }
+    }
+}
 </script>
-
-<style>
-
-</style>

@@ -1,7 +1,6 @@
 <style scoped>
 .box{
     max-height: 300px;
-    max-width: 500px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -11,11 +10,14 @@
 </style>
 
 <template>
-    <div class="container fade-up skew-1 p-3">
+    <div class="container fade-up">
         <div class="segment-top">
-            <h2>Wait! What Do I Do?</h2>
+            <div>
+                <h2 class="d-inline">Wait! What Do I Do?</h2>
+                <button class="float-right d-inline btn back-btn" v-on:click="back()"><span style="color:white; font-family: gothicBold;">About <i class="fa fa-arrow-right"></i></span></button>
+            </div>
             <div class="row d-flex justify-content-center segment-top">
-                <div class="card box w-100" v-on:click="get()">
+                <div class="card box w-100" v-on:click="getGame()">
                     <div class="card-body">
                         <h1>Monster Woods</h1>
                         <p>Monster Woods is a 2D platformer game developed using the Unity engine.</p>
@@ -32,8 +34,11 @@ import router from '../router';
 export default {
     name: 'work',
     methods:{
-        get(){
+        getGame(){
             router.push('/gorp')
+        },
+        back(){
+            router.push('/About')
         }
     }
 }
