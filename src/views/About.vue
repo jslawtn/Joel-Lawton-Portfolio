@@ -20,7 +20,7 @@
             <p>I'm Joel, a games and font-end developer from Manchester, UK. My passion for creative development and design has led me to use a multitude of digital tools to experiment and create.</p>
         </div>
         <div class="segment-top row">
-            <div class="col-6">
+            <div class="col-3 col-md-6">
                 <h2>Journey</h2>
             </div>
             <div class="col">
@@ -56,7 +56,7 @@ export default {
     name: 'about',
     methods:{
         back(){
-            router.push('/Work')
+            router.push('/work')
         }
     }
 }

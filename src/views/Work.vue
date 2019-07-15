@@ -35,10 +35,10 @@ export default {
     name: 'work',
     methods:{
         getGame(){
-            router.push('/gorp')
+            router.push('/monster-in-the-woods')
         },
         back(){
-            router.push('/About')
+            router.push('/about')
         }
     }
 }
