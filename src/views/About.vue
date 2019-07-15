@@ -26,18 +26,28 @@
             <div class="col">
                 <ul class="content-list">
                     <li class="mb-5">
+                        <div id="interact" class="bullit-circle"></div>
                         <div>
                             <p class="m-0">Graduate Developer - <span class="text-bold">Interact</span></p>
                             <p class="m-0">May 2018 - present</p>
                         </div>
                     </li>
                     <li class="mb-5">
+                        <div id="matmi" class="bullit-circle"></div>
+                        <div>
+                            <p class="m-0">Developer Placement - <span class="text-bold">Matmi</span></p>
+                            <p class="m-0">May 2017 - Aug 2017</p>
+                        </div>
+                    </li>
+                    <li class="mb-5">
+                        <div id="university" class="bullit-circle"></div>
                         <div>
                             <p class="m-0">Computer and Video Games - <span class="text-bold">Salford University</span></p>
                             <p class="m-0">Sep 2015 - May 2018</p>
                         </div>
                     </li>
                     <li class="mb-5">
+                        <div id="college" class="bullit-circle"></div>
                         <div>
                             <p class="m-0">Interactive Media - <span class="text-bold">Bury College</span></p>
                             <p class="m-0">Sep 2013 - Jun 2015</p>
@@ -45,6 +55,28 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- Tool tips -->
+
+            <b-tooltip target="interact" title="Interact">
+                <h5>Interact</h5>
+                In my current role as a graduate developer my responsibility is to plan, research and develop web software’s for use in building frameworks for a much larger product. This includes using third party API’s to create authentication flows and developing font and back end systems. In my role I use languages such as C#, HTML, CSS and Javascript as well as using data formatters such as Json. Other responsibilities include documenting and publishing workflows for colleagues, writing automated tests for projects, reporting current work progress to my manager and CEO is daily scrum meetings and collaborating with colleagues from multiple departments. 
+            </b-tooltip>
+
+            <b-tooltip target="matmi" title="Interact">
+                <h5>Matmi</h5>
+                Whilst at Matmi I was tasked with extending, testing and developing a web application for the Cheshire fire department. The project was a web application for called Sparkton. I was programming with the language haxe in the flambe framework. The work which I undertook was well received by both the product manager at Matmi and the client.
+            </b-tooltip>
+
+            <b-tooltip target="university" title="Interact">
+                <h5>Salford University</h5>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+            </b-tooltip>
+
+            <b-tooltip target="college" title="Interact">
+                <h5>Bury college</h5>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+            </b-tooltip>
         </div>
     </div>
 </template>
