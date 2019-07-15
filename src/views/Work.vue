@@ -16,8 +16,8 @@
                 <h2 class="d-inline">Wait! What Do I Do?</h2>
                 <button class="float-right d-inline btn back-btn" v-on:click="back()"><span style="color:white; font-family: gothicBold;">About <i class="fa fa-arrow-right"></i></span></button>
             </div>
-            <div class="row d-flex justify-content-center segment-top">
-                <div class="card box w-100" v-on:click="getGame()">
+            <div class="segment-top">
+                <div class="card box" v-on:click="getGame()">
                     <div class="card-body">
                         <h1>Monster Woods</h1>
                         <p>Monster Woods is a 2D platformer game developed using the Unity engine.</p>
