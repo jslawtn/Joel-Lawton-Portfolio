@@ -13,7 +13,7 @@
     <div class="container fade-up">
         <div class="segment-top">
             <div>
-                <h2 class="d-inline">Wait! What Do I Do?</h2>
+                <h2 class="d-inline">My Work</h2>
                 <button class="float-right d-inline btn back-btn" v-on:click="back()"><span style="color:white; font-family: gothicBold;">About <i class="fa fa-arrow-right"></i></span></button>
             </div>
             <div class="segment-top">
