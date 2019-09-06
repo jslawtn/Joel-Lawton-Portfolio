@@ -25,30 +25,30 @@
             </div>
             <div class="col">
                 <ul class="content-list">
-                    <li class="mb-5">
+                    <li class="mb-5 d-flex justify-content-start">
                         <div id="interact" class="bullit-circle"></div>
-                        <div>
+                        <div class="pl-5">
                             <p class="m-0">Graduate Developer - <span class="text-bold">Interact</span></p>
                             <p class="m-0">May 2018 - present</p>
                         </div>
                     </li>
-                    <li class="mb-5">
+                    <li class="mb-5 d-flex justify-content-start">
                         <div id="matmi" class="bullit-circle"></div>
-                        <div>
+                        <div class="pl-5">
                             <p class="m-0">Developer Placement - <span class="text-bold">Matmi</span></p>
                             <p class="m-0">May 2017 - Aug 2017</p>
                         </div>
                     </li>
-                    <li class="mb-5">
+                    <li class="mb-5 d-flex justify-content-start">
                         <div id="university" class="bullit-circle"></div>
-                        <div>
+                        <div class="pl-5">
                             <p class="m-0">Computer and Video Games - <span class="text-bold">Salford University</span></p>
                             <p class="m-0">Sep 2015 - May 2018</p>
                         </div>
                     </li>
-                    <li class="mb-5">
+                    <li class="mb-5 d-flex justify-content-start">
                         <div id="college" class="bullit-circle"></div>
-                        <div>
+                        <div class="pl-5">
                             <p class="m-0">Interactive Media - <span class="text-bold">Bury College</span></p>
                             <p class="m-0">Sep 2013 - Jun 2015</p>
                         </div>
