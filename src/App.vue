@@ -21,6 +21,13 @@
 .layer-3{
   width: 100%;
 }
+
+@media only screen and (max-width: 500px){
+    .hide-content{
+        visibility: hidden;
+        display: none;
+    }
+}
 </style>
 
 <template>
@@ -32,7 +39,7 @@
                 <a href="https://www.linkedin.com/in/joel-lawton-6a6b37154/" target="_blank"><i class="fa fa-linkedin icon-link"></i></a>
             </b-navbar-brand>
         </b-navbar>
-        <div class="parallax-layers">
+        <div class="parallax-layers hide-content">
             <img class="layer-1" 
             :style="{'transform':'translateX(' + mouseX/500 + '%) translateY(' + mouseY/500 + '%)'}" src="images/stars.png" />
             <img class="layer-2" 

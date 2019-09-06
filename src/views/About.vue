@@ -60,7 +60,7 @@
 
             <b-tooltip target="interact" title="Interact">
                 <h5>Interact</h5>
-                In my current role as a graduate developer my responsibility is to plan, research and develop web software’s for use in building frameworks for a much larger product. This includes using third party API’s to create authentication flows and developing font and back end systems. In my role I use languages such as C#, HTML, CSS and Javascript as well as using data formatters such as Json. Other responsibilities include documenting and publishing workflows for colleagues, writing automated tests for projects, reporting current work progress to my manager and CEO is daily scrum meetings and collaborating with colleagues from multiple departments. 
+                 
             </b-tooltip>
 
             <b-tooltip target="matmi" title="Interact">
