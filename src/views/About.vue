@@ -58,14 +58,14 @@
 
             <!-- Tool tips -->
 
-            <b-tooltip target="interact" title="Interact">
+            <b-tooltip target="interact" tityle="Interact">
                 <h5>Interact</h5>
                  
             </b-tooltip>
 
             <b-tooltip target="matmi" title="Interact">
                 <h5>Matmi</h5>
-                Whilst at Matmi I was tasked with extending, testing and developing a web application for the Cheshire fire department. The project was a web application for called Sparkton. I was programming with the language haxe in the flambe framework. The work which I undertook was well received by both the product manager at Matmi and the client.
+                At Matmi I helped develop on an existing web application using JS, Flambe and Haxe According to client specifications. 
             </b-tooltip>
 
             <b-tooltip target="university" title="Interact">
