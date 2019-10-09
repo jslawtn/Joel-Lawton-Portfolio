@@ -26,28 +26,28 @@
             <div class="col">
                 <ul class="content-list">
                     <li class="mb-5 d-flex justify-content-start">
-                        <div id="interact" class="bullit-circle"></div>
+                        <div id="interact"><i class="fa fa-circle"></i></div>
                         <div class="pl-5">
                             <p class="m-0">Graduate Developer - <span class="text-bold">Interact</span></p>
                             <p class="m-0">May 2018 - present</p>
                         </div>
                     </li>
                     <li class="mb-5 d-flex justify-content-start">
-                        <div id="matmi" class="bullit-circle"></div>
+                        <div id="matmi"><i class="fa fa-circle"></i></div>
                         <div class="pl-5">
                             <p class="m-0">Developer Placement - <span class="text-bold">Matmi</span></p>
                             <p class="m-0">May 2017 - Aug 2017</p>
                         </div>
                     </li>
                     <li class="mb-5 d-flex justify-content-start">
-                        <div id="university" class="bullit-circle"></div>
+                        <div id="university"><i class="fa fa-circle"></i></div>
                         <div class="pl-5">
                             <p class="m-0">Computer and Video Games - <span class="text-bold">Salford University</span></p>
                             <p class="m-0">Sep 2015 - May 2018</p>
                         </div>
                     </li>
                     <li class="mb-5 d-flex justify-content-start">
-                        <div id="college" class="bullit-circle"></div>
+                        <div id="college"><i class="fa fa-circle"></i></div>
                         <div class="pl-5">
                             <p class="m-0">Interactive Media - <span class="text-bold">Bury College</span></p>
                             <p class="m-0">Sep 2013 - Jun 2015</p>
@@ -60,7 +60,7 @@
 
             <b-tooltip target="interact" tityle="Interact">
                 <h5>Interact</h5>
-                 
+                Working with .NET and VueJs to deliver web application that integrate with third party applications. 
             </b-tooltip>
 
             <b-tooltip target="matmi" title="Interact">
@@ -70,12 +70,12 @@
 
             <b-tooltip target="university" title="Interact">
                 <h5>Salford University</h5>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+                
             </b-tooltip>
 
             <b-tooltip target="college" title="Interact">
                 <h5>Bury college</h5>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+                
             </b-tooltip>
         </div>
     </div>
