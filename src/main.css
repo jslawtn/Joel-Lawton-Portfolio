@@ -77,6 +77,14 @@ p, i{
     transform: translateX(15px);
 }
 
+.bullit-circle{
+    width: 15px;
+    height: 15px;
+    border: solid 3px white;
+    border-radius: 50px;
+    position: relative;
+    top: 1rem;
+}
 
 /* Animations */
 

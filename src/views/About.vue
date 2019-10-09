@@ -25,26 +25,58 @@
             </div>
             <div class="col">
                 <ul class="content-list">
-                    <li class="mb-5">
-                        <div>
+                    <li class="mb-5 d-flex justify-content-start">
+                        <div id="interact"><i class="fa fa-circle"></i></div>
+                        <div class="pl-5">
                             <p class="m-0">Graduate Developer - <span class="text-bold">Interact</span></p>
                             <p class="m-0">May 2018 - present</p>
                         </div>
                     </li>
-                    <li class="mb-5">
-                        <div>
+                    <li class="mb-5 d-flex justify-content-start">
+                        <div id="matmi"><i class="fa fa-circle"></i></div>
+                        <div class="pl-5">
+                            <p class="m-0">Developer Placement - <span class="text-bold">Matmi</span></p>
+                            <p class="m-0">May 2017 - Aug 2017</p>
+                        </div>
+                    </li>
+                    <li class="mb-5 d-flex justify-content-start">
+                        <div id="university"><i class="fa fa-circle"></i></div>
+                        <div class="pl-5">
                             <p class="m-0">Computer and Video Games - <span class="text-bold">Salford University</span></p>
                             <p class="m-0">Sep 2015 - May 2018</p>
                         </div>
                     </li>
-                    <li class="mb-5">
-                        <div>
+                    <li class="mb-5 d-flex justify-content-start">
+                        <div id="college"><i class="fa fa-circle"></i></div>
+                        <div class="pl-5">
                             <p class="m-0">Interactive Media - <span class="text-bold">Bury College</span></p>
                             <p class="m-0">Sep 2013 - Jun 2015</p>
                         </div>
                     </li>
                 </ul>
             </div>
+
+            <!-- Tool tips -->
+
+            <b-tooltip target="interact" tityle="Interact">
+                <h5>Interact</h5>
+                Working with .NET and VueJs to deliver web application that integrate with third party applications. 
+            </b-tooltip>
+
+            <b-tooltip target="matmi" title="Interact">
+                <h5>Matmi</h5>
+                At Matmi I helped develop on an existing web application using JS, Flambe and Haxe According to client specifications. 
+            </b-tooltip>
+
+            <b-tooltip target="university" title="Interact">
+                <h5>Salford University</h5>
+                
+            </b-tooltip>
+
+            <b-tooltip target="college" title="Interact">
+                <h5>Bury college</h5>
+                
+            </b-tooltip>
         </div>
     </div>
 </template>
